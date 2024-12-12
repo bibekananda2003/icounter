@@ -31,15 +31,17 @@ body{
 .btn{
     height: 40px;
     width: 100px;
+    font-family: poopins;
     font-size: 18px;
-    font-weight: 400;
-    
+    font-weight: 600;
+    color: white;
     border: none;
-    transition: .6s ease;
+    transition: .9s ease;
+    cursor: pointer;
 }
 
 #incr_btn{
-    background-color: #58a231b5;
+    background-color: #77c24f;
     border-radius: 47%;
 }
 
@@ -49,15 +51,17 @@ body{
 }
 
 #incr_btn:hover{
+    color: #59fd00;
     border-radius: 30%;
-    transition: .6s ease;
-    background-color: #73d53f;
+    transition: .4s ease;
+    background-color: #73d53f00;
 }
 
 #decr_btn:hover{
+    color: #c05534;
     border-radius: 30%;
-    transition: .6s ease;
-    background-color: #c05534;
+    transition: .4s ease;
+    background-color: #c0553400;
 }
 
 .small_container h1{

@@ -11,7 +11,7 @@ class Second extends React.Component{
     }
     increment = () => {
         setTimeout(() => {
-          this.setState({color: '#73d53f', counter: this.state.counter + 1 });
+          this.setState({color: '#59fd00', counter: this.state.counter + 1 });
         }, 100); 
       }
     
@@ -20,6 +20,8 @@ class Second extends React.Component{
           this.setState({ color: '#c05534', counter: this.state.counter - 1 });
         }, 100); 
       }
+
+      
     
 
     changeColorToWhite = () => {
